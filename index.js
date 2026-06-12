@@ -1,5 +1,5 @@
 import express from "express";
-import line from "@line/bot-sdk";
+import * as line from "@line/bot-sdk";
 import { createClient } from "@supabase/supabase-js";
 import OpenAI from "openai";
 import dotenv from "dotenv";
